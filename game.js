@@ -64,7 +64,6 @@ function showPage() {
     document.getElementById('finalMessage').classList.remove('hidden');
     document.getElementById('hint').innerText = `Forza! ${hints[page]}`;
     placeImage.classList.remove('hidden');
-    placeAudio.classList.add('hidden');
     placeImage.src = images[page];
     document.getElementById('inputSection').style.display = 'none';
     document.getElementById('feedback').innerText = '';
