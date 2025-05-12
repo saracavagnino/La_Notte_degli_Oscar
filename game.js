@@ -75,7 +75,10 @@ function showPage() {
     document.getElementById('feedback').innerText = "";
     document.getElementById('inputSection').style.display = 'block';
     document.getElementById("resetButton").style.display = "none";
-    }
+
+    // 🔧 Queste due righe erano mancanti
+    placeImage.classList.remove('hidden');
+    placeImage.src = images[page];
   }
 }
 
