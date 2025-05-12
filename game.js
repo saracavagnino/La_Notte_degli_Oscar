@@ -59,7 +59,6 @@ function showPage() {
   const page = squadre[squadra][progress.currentIndex];
 
   const placeImage = document.getElementById('placeImage');
-  const placeAudio = document.getElementById('placeAudio');
 
   if (page === 6) {
     document.getElementById('finalMessage').classList.remove('hidden');
@@ -77,16 +76,6 @@ function showPage() {
     document.getElementById('feedback').innerText = "";
     document.getElementById('inputSection').style.display = 'block';
     document.getElementById("resetButton").style.display = "none";
-
-    if (page === 3) {
-      placeImage.classList.add('hidden');
-      placeAudio.classList.remove('hidden');
-      placeAudio.querySelector('source').src = "audio/lavatoio.mp3";
-      placeAudio.load();
-    } else {
-      placeAudio.classList.add('hidden');
-      placeImage.classList.remove('hidden');
-      placeImage.src = images[page];
     }
   }
 }
