@@ -57,15 +57,12 @@ if (!squadra || !squadre[squadra]) {
 // Mostra pagina
 function showPage() {
   const page = squadre[squadra][progress.currentIndex];
-
   const placeImage = document.getElementById('placeImage');
-  const placeAudio = document.getElementById('placeAudio');
 
   if (page === 6) {
     document.getElementById('finalMessage').classList.remove('hidden');
     document.getElementById('hint').innerText = `Forza! ${hints[page]}`;
     placeImage.classList.remove('hidden');
-    placeAudio.classList.add('hidden');
     placeImage.src = images[page];
     document.getElementById('inputSection').style.display = 'none';
     document.getElementById('feedback').innerText = '';
@@ -78,7 +75,6 @@ function showPage() {
     document.getElementById('inputSection').style.display = 'block';
     document.getElementById("resetButton").style.display = "none";
 
-    placeAudio.classList.add('hidden');
     placeImage.classList.remove('hidden');
     placeImage.src = images[page];
   }
