@@ -13,7 +13,7 @@ const squadre = {
 
 // Mappa media indizi luogo
 const images = {
-  1: "img/scivoli.jpg",
+  1: "img/parco_blu.jpg",
   2: "img/stefania.jpg",
   3: "audio/ciclabile.jpg",
   4: "img/madonna_cavallero.jpg",
