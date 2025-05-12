@@ -57,20 +57,26 @@ if (!squadra || !squadre[squadra]) {
 // Mostra pagina
 function showPage() {
   const page = squadre[squadra][progress.currentIndex];
-  console.log(`Mostra la pagina per l'indice: ${progress.currentIndex}, pagina: ${page}`); // Aggiungi per debugging
 
   const placeImage = document.getElementById('placeImage');
-  
-  // Se siamo all'ultimo punto, mostra il messaggio finale
+
   if (page === 6) {
+    // Mostra il messaggio finale
     document.getElementById('finalMessage').classList.remove('hidden');
     document.getElementById('hint').innerText = `Forza! ${hints[page]}`;
     placeImage.classList.remove('hidden');
     placeImage.src = images[page];
+
+    // Nascondi la sezione di input
     document.getElementById('inputSection').style.display = 'none';
+
+    // Rimuovi il feedback
     document.getElementById('feedback').innerText = '';
+
+    // Mostra il pulsante di reset
     document.getElementById("resetButton").style.display = "block";
   } else {
+    // Mostra la pagina normale
     document.getElementById('finalMessage').classList.add('hidden');
     document.getElementById('hint').innerText = `${hints[page]}`;
     document.getElementById('answer').value = "";
@@ -82,7 +88,6 @@ function showPage() {
     placeImage.src = images[page];
   }
 }
-
 
 // Verifica risposta
 function checkAnswer() {
