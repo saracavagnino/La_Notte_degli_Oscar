@@ -15,7 +15,7 @@ const squadre = {
 const images = {
   1: "img/parco_blu.jpg",
   2: "img/stefania.jpg",
-  3: "audio/ciclabile.jpg",
+  3: "img/ciclabile.jpg",
   4: "img/madonna_cavallero.jpg",
   5: "img/bocciofila.jpg", 
   6: "img/oscar.jpg"
