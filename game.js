@@ -48,7 +48,7 @@ let progress = JSON.parse(localStorage.getItem(`progress_${squadra}`)) || {
 
 // Squadra non valida
 if (!squadra || !squadre[squadra]) {
-  document.body.innerHTML = "<p>Squadra non valida. Aggiungi '?squadra=A' all'URL.</p>";
+  document.body.innerHTML = "<p>Squadra non valida. Aggiungi '?squadra=F' all'URL.</p>";
 } else {
   document.getElementById('game').classList.remove('hidden');
   showPage();
