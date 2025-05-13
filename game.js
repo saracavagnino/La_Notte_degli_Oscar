@@ -25,7 +25,7 @@ const images = {
 const hints = {
   1: "Quali forme geometriche ci sono?",
   2: "VERIFICA STEFANIA",
-  3: "VERIFICA CICLABILE",
+  3: "Quante aste verticale ha il primo cancello?",
   4: "VERIFICA MADONNA CAVALLERO",
   5: "Facendo il giro in senso antiorario, qual è il numero di serie del secondo lampione?",
   6: "Corri e trova la statuetta per primo!"
@@ -35,7 +35,7 @@ const hints = {
 const answers = {
   1: "quadrato triangolo cerchio", //formine scivoli
   2: "???", //stefania
-  3: "???", //ciclabile
+  3: "68", //ciclabile
   4: "???", //madonna cavallero
   5: "75287", //numero lampione bocciofila
 };
