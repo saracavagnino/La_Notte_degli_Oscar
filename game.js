@@ -27,7 +27,7 @@ const hints = {
   2: "VERIFICA STEFANIA",
   3: "Quante aste verticale ha il primo cancello?",
   4: "VERIFICA MADONNA CAVALLERO",
-  5: "Facendo il giro in senso antiorario, qual è il numero di serie del secondo lampione?",
+  5: "Facendo il giro in senso orario, qual è il numero di serie del sesto lampione?",
   6: "Corri e trova la statuetta per primo!"
 };
 
