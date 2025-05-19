@@ -28,7 +28,7 @@ const hints = {
   3: "Quante aste verticale ha il primo cancello?",
   4: "Qual è il codice del tubo del gas?",
   5: "Facendo il giro in senso orario, qual è il numero di serie del sesto lampione?",
-  6: "Corri e trova la statuetta per primo!"
+  6: "Troverai indicazioni sul posto!"
 };
 
 //Mappa risposte corrette personalizzabili
