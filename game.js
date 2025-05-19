@@ -25,7 +25,7 @@ const images = {
 const hints = {
   1: "Quali forme geometriche ci sono?",
   2: "Qual è il codice del tombino sulla curva?",
-  3: "Quante aste verticale ha il primo cancello?",
+  3: "Quante aste verticali ha il primo cancello?",
   4: "Qual è il codice del tubo del gas?",
   5: "Facendo il giro in senso orario, qual è il numero di serie del sesto lampione?",
   6: "Troverai indicazioni sul posto!"
