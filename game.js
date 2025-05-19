@@ -26,7 +26,7 @@ const hints = {
   1: "Quali forme geometriche ci sono?",
   2: "Qual è il codice del tombino sulla curva?",
   3: "Quante aste verticale ha il primo cancello?",
-  4: "VERIFICA MADONNA CAVALLERO",
+  4: "Qual è il codice del tubo del gas?",
   5: "Facendo il giro in senso orario, qual è il numero di serie del sesto lampione?",
   6: "Corri e trova la statuetta per primo!"
 };
@@ -36,7 +36,7 @@ const answers = {
   1: "quadrato triangolo cerchio", //formine scivoli
   2: "EN124-C250", //stefania
   3: "68", //ciclabile
-  4: "???", //madonna cavallero
+  4: "1098", //madonna cavallero
   5: "75287", //numero lampione bocciofila
 };
 
